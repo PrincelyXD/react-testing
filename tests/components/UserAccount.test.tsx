@@ -20,8 +20,7 @@ describe('UserAccount', () => {
 
        const button = screen.getByRole('button')
        expect(button).toBeInTheDocument()
-     
-       
+       expect(button).toHaveTextContent(/edit/i)
     })
 
     it('should not render an edit button if user is not an admin', () => {
