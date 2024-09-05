@@ -34,7 +34,8 @@ a:hover {
   padding: 0.2rem 1rem;
   border-radius: 5px;
 }
-.btn:disabled{
+
+.btn:disabled {
   background: #ccc;
 }
 

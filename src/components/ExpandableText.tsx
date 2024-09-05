@@ -5,7 +5,6 @@ const ExpandableText = ({ text }: { text: string }) => {
   const [isExpanded, setExpanded] = useState(false);
 
   if (text.length <= limit) return <article>{text}</article>;
-
   return (
     <div>
       {isExpanded ? (
